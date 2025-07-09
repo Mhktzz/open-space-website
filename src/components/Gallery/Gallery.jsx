@@ -1,16 +1,16 @@
 import React from "react";
 import "./Gallery.css";
 
-import kitchenImg1 from "../../assets/kitchen-1.jpg";
-import backdropImg1 from "../../assets/backdrop-1.jpg";
-import kitchenImg2 from "../../assets/kitchen-2.jpg";
-import livingRoomImg1 from "../../assets/living-room-1.jpg";
+import openSpace1 from "../../assets/Open Space (1).jpg";
+import openSpace4 from "../../assets/Open Space (4).jpg";
+import openSpace5 from "../../assets/Open Space (5).jpg";
+import openSpace6 from "../../assets/Open Space (6).jpg";
 
 const galleryImages = [
-  { id: 1, src: kitchenImg1, alt: "Kitchen Design 1" },
-  { id: 2, src: backdropImg1, alt: "Backdrop Design 1" },
-  { id: 3, src: kitchenImg2, alt: "Kitchen Design 2" },
-  { id: 4, src: livingRoomImg1, alt: "Living Room Design 1" },
+  { id: 1, src: openSpace1, alt: "Gambar 1" },
+  { id: 2, src: openSpace4, alt: "Gambar 2" },
+  { id: 3, src: openSpace5, alt: "Gambar 3" },
+  { id: 4, src: openSpace6, alt: "Gambar 4" },
 ];
 
 const Gallery = () => {

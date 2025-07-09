@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/react.svg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="#hero" className="navbar-logo">
-          <img src={logo} alt="Open Space Logo" />
+          {/* <img src={logo} alt="Open Space Logo" /> */}
           <span>Open Space</span>
         </a>
 

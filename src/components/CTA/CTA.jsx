@@ -13,7 +13,7 @@ const CTA = () => {
           biasa bersama kami.
         </p>
         <a
-          href="https://wa.me/6281234567890?text=Halo%20Open%20Space,%20saya%20tertarik%20dengan%20paket%20desain%20interior."
+          href="https://wa.me/628112725572"
           className="cta-button"
           target="_blank"
           rel="noopener noreferrer"

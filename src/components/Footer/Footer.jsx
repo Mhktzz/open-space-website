@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import { FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
-import logo from "../../assets/react.svg";
-
+import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
+import logo from "../../assets/logo-black.png";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer-about">
           <a href="#hero" className="footer-logo">
             <img src={logo} alt="Open Space Logo" />
-            <span>Open Space</span>
+            {/* <span>Cipta Ruang Suasana</span> */}
           </a>
           <p>
             Mewujudkan ruang impian Anda melalui desain yang fungsional dan
@@ -38,21 +38,41 @@ const Footer = () => {
         </div>
         <div className="footer-contact">
           <h4>Hubungi Kami</h4>
-          <p>Jl. Desain Interior No. 123, Purwokerto, Indonesia</p>
-          <p>Email: halo@openspace.com</p>
-          <p>Telp: (024) 123-4567</p>
+          <a href="https://maps.app.goo.gl/bJra1o8ERko9E2XU6?g_st=iw">
+            <p>
+              Jl. 10 Nopember No.163, Ledug Lor, Ledug, Kec. Kembaran, Kabupaten
+              Banyumas, Jawa Tengah 53112
+            </p>
+          </a>
+
+          <a href="mailto:ciptaruangsuasana@gmail.com">
+            <p>Email: ciptaruangsuasana@gmail.com</p>
+          </a>
+
+          <a href="tel:08112725572">
+            <p>Telp: +62 811 272 5572</p>
+          </a>
         </div>
         <div className="footer-social">
           <h4>Ikuti Kami</h4>
           <div className="social-icons">
-            <a href="#" aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/ciptaruangsuasana?igsh=MXVhMnJidHkzb3c2Zw=="
+              aria-label="Instagram"
+            >
               <FaInstagram />
             </a>
-            <a href="#" aria-label="WhatsApp">
-              <FaWhatsapp />
+            <a
+              href="https://youtube.com/@ciptaruangsuasana?si=Floc41yr7sJmTlbl"
+              aria-label="YouTube"
+            >
+              <FaYoutube />
             </a>
-            <a href="#" aria-label="Facebook">
-              <FaFacebookF />
+            <a
+              href="https://www.tiktok.com/@ciptaruang.suasana?_t=ZS-8xsX9G785Ki&_r=1"
+              aria-label="TikTok"
+            >
+              <SiTiktok />
             </a>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Solution.css";
 import beforeImg from "../../assets/illustration-before.jpg";
-import afterImg from "../../assets/illustration-after.jpg";
+import afterImg from "../../assets/Open Space (2).jpg";
 
 const Solution = () => {
   return (

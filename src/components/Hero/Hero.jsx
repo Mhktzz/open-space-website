@@ -1,10 +1,10 @@
 import React from "react";
 import "./Hero.css";
-import heroVideo from "../../assets/hero-video-1.mp4";
+import heroVideo from "../../assets/hero-video-3.mp4";
 
 const Hero = () => {
   return (
-    <section className="hero-container">
+    <section id="hero" className="hero-container">
       <div className="hero-video-wrapper">
         <video src={heroVideo} autoPlay loop muted playsInline />
       </div>
