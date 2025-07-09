@@ -1,0 +1,124 @@
+.navbar {
+  background: var(--background-color);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 24px;
+}
+
+.navbar-logo {
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  left: -100%;
+  opacity: 1;
+  transition: all 0.5s ease;
+  background: var(--background-color);
+  padding: 20px 0;
+}
+
+.nav-menu.active {
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  list-style: none;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.nav-link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link-button:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}
+
+.menu-icon {
+  display: block;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--main-color);
+}
+
+@media screen and (min-width: 960px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    position: static;
+    width: auto;
+    left: auto;
+    background: transparent;
+    padding: 0;
+  }
+
+  .nav-item {
+    padding: 0;
+  }
+
+  .nav-link-button {
+    margin-left: 20px;
+  }
+}

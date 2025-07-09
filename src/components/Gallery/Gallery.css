@@ -1,0 +1,83 @@
+.gallery-container {
+  padding: 80px 20px;
+  background-color: var(--background-color);
+}
+
+.gallery-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+}
+
+.gallery-header h2 {
+  font-size: 2.2rem;
+  color: var(--main-color);
+  margin-bottom: 15px;
+}
+
+.gallery-header p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  aspect-ratio: 1 / 1; /* Membuat item menjadi kotak */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Memastikan gambar memenuhi kotak tanpa distorsi */
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+.gallery-item-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  display: flex;
+  align-items: flex-end; /* Meletakkan teks di bawah */
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.gallery-item:hover .gallery-item-overlay {
+  opacity: 1; /* Tampilkan overlay saat hover */
+}
+
+.gallery-item-overlay p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  transform: translateY(20px);
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover .gallery-item-overlay p {
+  transform: translateY(0);
+}
