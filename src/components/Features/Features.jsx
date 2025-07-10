@@ -8,19 +8,19 @@ const featuresData = [
     icon: <MdOutlineKitchen size={50} className="feature-icon" />,
     title: "Kitchen Set Fungsional & Stylish",
     description:
-      "Desain modern dan minimalis yang menyatu sempurna. Material berkualitas tinggi, tahan lama, dan mudah dibersihkan. Penataan cerdas untuk penyimpanan optimal.",
+      "Desain modern minimalis kami menyatu sempurna, pakai material berkualitas dan gampang dibersihkan. Penataan cerdas juga bikin penyimpanan jadi optimal.",
   },
   {
     icon: <MdOutlineTableBar size={50} className="feature-icon" />,
     title: "Meja Island / Meja Bar Multifungsi",
     description:
-      "Pusat interaksi baru: tempat ngopi, sarapan, atau area kerja fleksibel. Desain elegan yang berfungsi ganda sebagai sekat visual tanpa memblokir ruang.",
+      "Pusat interaksi baru ini menyediakan tempat multifungsi untuk ngopi, sarapan, atau kerja. Desain elegannya berfungsi ganda sebagai sekat visual yang tak memblokir ruang.",
   },
   {
     icon: <PiTelevisionSimpleBold size={50} className="feature-icon" />,
     title: "Backdrop Living Room Estetik",
     description:
-      "Hadirkan fokus visual yang memukau. Desain terintegrasi untuk TV dan penyimpanan, membuat area living room lebih rapi dan stylish.",
+      "Fokus visual memukau hadir dengan desain terintegrasi untuk TV dan penyimpanan, menciptakan living room yang rapi dan stylish.",
   },
 ];
 

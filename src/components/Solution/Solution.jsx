@@ -9,10 +9,10 @@ const Solution = () => {
       <div className="solution-text">
         <h2>Wujudkan Ruang Impianmu dengan Konsep Open Space!</h2>
         <p>
-          Kami menghadirkan solusi desain interior terpadu yang akan mengubah
-          cara kamu hidup dan berinteraksi di rumah. Dengan Paket Interior Open
-          Space kami, maksimalkan setiap inci ruang untuk kebersamaan,
-          fungsionalitas, dan estetika modern.
+          Kami punya solusi desain interior terpadu yang akan mengubah cara kamu
+          berinteraksi di rumah. Dengan Paket Interior Open Space, maksimalkan
+          setiap inci ruang untuk kebersamaan, fungsionalitas, dan estetika
+          modern.
         </p>
       </div>
       <div className="solution-images">

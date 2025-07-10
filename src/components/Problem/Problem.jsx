@@ -7,9 +7,8 @@ const Problem = () => {
       <div className="problem-content">
         <h2>Merasa Terjebak dalam Ruangan Sempit yang Terpisah?</h2>
         <p>
-          Apakah rumahmu terasa sesak, minim interaksi, dan sulit bergerak
-          bebas? Dinding pembatas yang memisahkan dapur, ruang makan, dan ruang
-          keluarga seringkali mengurangi kesan luas dan kehangatan dalam rumah.
+          Rumah Terasa Sesak dan Minim Interaksi? Dinding pembatas sering bikin
+          rumah terasa sempit dan kurang hangat.
         </p>
         <p className="problem-impact">
           Bayangkan betapa nyamannya jika semua area esensial ini menyatu,
