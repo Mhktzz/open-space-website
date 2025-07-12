@@ -6,7 +6,7 @@ const CTA = () => {
     <section id="cta" className="cta-container">
       <div className="cta-overlay"></div>
       <div className="cta-content">
-        <h2>Siap Mewujudkan Open Space Impianmu?</h2>
+        <h2>Ayo Wujudkan Open Space Impianmu!</h2>
         <p>
           Jangan tunda lagi menciptakan rumah yang lebih lapang, interaktif, dan
           penuh gaya. Nikmati kebebasan desain dan fungsionalitas yang luar
@@ -18,7 +18,7 @@ const CTA = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          DAPATKAN KONSULTASI & PENAWARAN EKSKLUSIF
+          Konsultasi GRATIS Sekarang!
         </a>
       </div>
     </section>

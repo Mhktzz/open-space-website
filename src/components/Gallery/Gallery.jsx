@@ -1,16 +1,16 @@
 import React from "react";
 import "./Gallery.css";
 
-import openSpace1 from "../../assets/Open Space (1).jpg";
-import openSpace4 from "../../assets/Open Space (4).jpg";
-import openSpace5 from "../../assets/Open Space (5).jpg";
-import openSpace6 from "../../assets/Open Space (6).jpg";
+import openSpace1 from "../../assets/Hapsari (5).jpg";
+import openSpace2 from "../../assets/Hapsari (6).jpg";
+import openSpace3 from "../../assets/Hapsari (7).jpg";
+import openSpace4 from "../../assets/Hapsari (9).jpg";
 
 const galleryImages = [
   { id: 1, src: openSpace1, alt: "Gambar 1" },
-  { id: 2, src: openSpace4, alt: "Gambar 2" },
-  { id: 3, src: openSpace5, alt: "Gambar 3" },
-  { id: 4, src: openSpace6, alt: "Gambar 4" },
+  { id: 2, src: openSpace2, alt: "Gambar 2" },
+  { id: 3, src: openSpace3, alt: "Gambar 3" },
+  { id: 4, src: openSpace4, alt: "Gambar 4" },
 ];
 
 const Gallery = () => {
@@ -19,8 +19,8 @@ const Gallery = () => {
       <div className="gallery-header">
         <h2>Portofolio Desain Kami</h2>
         <p>
-          Lihat bagaimana kami mengubah ruang menjadi karya seni yang
-          fungsional.
+          Lihat Bagaimana Kami Mengubah Ruang menjadi Karya Seni yang
+          Fungsional.
         </p>
       </div>
       <div className="gallery-grid">

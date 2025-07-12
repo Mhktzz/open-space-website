@@ -53,3 +53,9 @@
     padding: 60px 20px;
   }
 }
+
+@media (max-width: 600px) {
+  .solution-text h2 {
+    font-size: 2rem;
+  }
+}

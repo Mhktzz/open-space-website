@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <a href="#hero" className="navbar-logo">
           {/* <img src={logo} alt="Open Space Logo" /> */}
-          <span>Open Space</span>
+          <span>Rumah Open Space</span>
         </a>
 
         <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>

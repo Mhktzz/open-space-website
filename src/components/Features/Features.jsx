@@ -1,6 +1,9 @@
 import React from "react";
 import "./Features.css";
 import { MdOutlineKitchen, MdOutlineTableBar } from "react-icons/md";
+import { FaChair } from "react-icons/fa";
+import { GiTable } from "react-icons/gi";
+import BarTable from "../../assets/bar-table.png";
 import { PiTelevisionSimpleBold } from "react-icons/pi";
 
 const featuresData = [
@@ -8,19 +11,26 @@ const featuresData = [
     icon: <MdOutlineKitchen size={50} className="feature-icon" />,
     title: "Kitchen Set Fungsional & Stylish",
     description:
-      "Desain modern minimalis kami menyatu sempurna, pakai material berkualitas dan gampang dibersihkan. Penataan cerdas juga bikin penyimpanan jadi optimal.",
+      "Desain kami menyatu sempurna, menggunakan material berkualitas. Penataan storage jadi optimal.",
   },
   {
-    icon: <MdOutlineTableBar size={50} className="feature-icon" />,
+    icon: (
+      <img
+        src={BarTable}
+        alt="Bar Table"
+        className="feature-icon"
+        style={{ width: 50 }}
+      />
+    ),
     title: "Meja Island / Meja Bar Multifungsi",
     description:
-      "Pusat interaksi baru ini menyediakan tempat multifungsi untuk ngopi, sarapan, atau kerja. Desain elegannya berfungsi ganda sebagai sekat visual yang tak memblokir ruang.",
+      "Designnya berfungsi ganda, sebagai sekat viusal yang tidak memblokir ruang, dan sebagai tempat multifungsi untuk ngopi, sarapan atau bekerja.",
   },
   {
     icon: <PiTelevisionSimpleBold size={50} className="feature-icon" />,
     title: "Backdrop Living Room Estetik",
     description:
-      "Fokus visual memukau hadir dengan desain terintegrasi untuk TV dan penyimpanan, menciptakan living room yang rapi dan stylish.",
+      "Fokus visual yang menarik untuk TV dan penyimpanan, menciptakan living room yang rapi dan stylish.",
   },
 ];
 
